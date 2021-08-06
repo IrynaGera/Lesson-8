@@ -1,0 +1,94 @@
+body,
+html {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0; 
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    padding: 275px 220px 250px;
+    padding-bottom: 0 0 40px;
+}
+
+@font-face {
+    font-family: Playfair Display;
+    src: url(/src/fonts/Playfair_Display/PlayfairDisplay-Regular.ttf);
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1 {
+    font-size: 42px;
+    color: #171717;
+    font-family: Playfair Display;
+    padding-bottom: 40px;
+    font-weight: 400;
+    margin: 0;
+    font-style: normal;
+}
+
+.picture {
+    float: left;
+    margin: 0 35px 0px 0;
+}    
+
+@font-face {
+    font-family: Lato;
+    src: url(/src/fonts/Lato/Lato-Light.ttf);
+    font-weight: 300;
+    font-style: normal;
+}
+
+.maintext {
+    padding: 0 0 40px;
+    font-size: 19px;
+    line-height: 33px;
+    color: #171717;
+    font-family: Lato;
+    font-weight: 300;
+    font-style: normal;
+}
+
+p {
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: Lato;
+    src: url(/src/fonts/Lato/Lato-LightItalic.ttf);
+    font-weight: 300;
+    font-style: italic;
+}
+
+.text2 {
+    font-size: 19px;
+    color: #171717;
+    font-weight: 300;
+    font-family: Lato;
+    padding-bottom: 45px;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: Lato;
+    src: url(/src/fonts/Lato/Lato-Bold.ttf);
+    font-weight: 700;
+    font-style: normal;
+}
+
+button {
+    width: 265px;
+    height: 65px;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: Lato;
+    color: #eaa258;
+    font-style: normal;
+}
+
+
